@@ -85,7 +85,7 @@ function App() {
 
         </div>
       </div>
-      <div className='thirdpart'>
+      <div className='thirdpart' >
         <div>
           <div>
             Everything you crave, delivered.
@@ -107,7 +107,7 @@ function App() {
         </div>
 
       </div>
-      <div className='thirdpart'>
+      <div className='thirdpart color'>
         <div>
           <img src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/dashpass_desktop.png" />
           
@@ -127,6 +127,129 @@ function App() {
         
 
       </div>
+      <div className='low1 background1'>
+        <h2>
+          Get grocery and convenience store essentials
+        </h2>
+        <div>
+          Grocery delivery, exactly how you want it.
+        </div>
+        <div>
+          Shop from home and fill your cart with fresh produce, frozen entrees, deli delights and more.
+        </div>
+        <button className='signin'>
+          Shop Groceries
+        </button>
+      </div>
+
+      <div className='thirdpart '>
+        
+        <div>
+          <div>
+           Convenience stores at your doorstep
+          </div>
+          <div>
+            Stock up on snacks, household essentials, candy, or vitamins — all delivered in under an hour.
+          </div>
+          
+          <button>
+            Shop Now
+          </button>
+        </div>
+        <div>
+          <img src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/convenience_desktop.png" />
+          
+        </div>
+      </div>
+      <div className='midsection'>
+        <div>
+          <img src= "https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/beauty_desktop.png" />
+          <div>
+            Beauty essentials from top brands
+          </div>
+          <div>
+            Get all your beauty and self-care needs delivered at home or on-the-go
+          </div>
+          <button className='signin'>
+            Shop Beauty
+          </button>
+        </div>
+        <div>
+          <img src= "https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/flowers_desktop.png" />
+          <div>
+           Flowers for any occasion
+          </div>
+          <div>
+            Shop hand-picked and thoughtfully-arranged blooms from florists near you.
+          </div>
+          <button className='signin'>
+            Send Flowers
+          </button>
+        </div>
+        <div>
+          <img src= "https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/beauty_desktop.png" />
+          <div>
+            Restock the minibar
+          </div>
+          <div>
+           Hosting a get-together or need or need a special cocktail ingredient? Get liquor, beer, mixers, champagne and wine delivered fast.*
+          </div>
+          <button className='signin'>
+            Shop Alcohol
+          </button>
+        </div>
+        <div>
+          <img src= "https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/pet_supplies_desktop.png" />
+          <div>
+            What your pets need, and want
+          </div>
+          <div>
+            Finally, something cat people and dog people agree on — pet supplies delivery. Shop pet food, chew toys, and even costumes.
+          </div>
+          <button className='signin'>
+            Get Pet Supplies
+          </button>
+        </div>
+      </div>
+      <h3>Unlocking opportunity for Dashers and businesses</h3>
+      <div className='thirdpart' >
+        <div>
+          <div>
+            Sign up to dash and get paid
+          </div>
+          <div>
+            Deliver with the #1 Food and Drink App in the U.S. As a delivery driver, you'll make money and work on your schedule. Sign up in minutes.
+          </div>
+         
+          <button>
+            Become a Dasher
+          </button>
+        </div>
+        <div>
+          <img src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/become_a_dasher_desktop.png" />
+
+        </div>
+
+      </div>
+      <div className='thirdpart color'>
+        <div>
+          <img src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/work_with_doordash_desktop.png" />
+          
+        </div>
+        <div>
+          <div>
+            Grow your business with DoorDash
+          </div>
+          <div>
+            Businesses large and small partner with DoorDash to reach new customers, increase order volume, and drive more sales.
+          </div>
+          
+          <button>
+            Become a Partner
+          </button>
+        </div>
+        </div>
+        
     </>
   )
 }

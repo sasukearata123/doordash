@@ -210,3 +210,56 @@
   }
 }
 
+.color{
+  background-color: whitesmoke;
+}
+.background1 {
+  background-image: url('./assets/Groceries-ThinkstockPhotos-836782690.jpg');
+  background-size: cover;        /* fills entire screen */
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;                  /* full screen width */
+  height: 50vh;                 /* full screen height */
+}
+.low1{
+  color: white;
+  font-weight: bold;
+  padding-top: 2rem;
+}
+
+.midsection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 2rem;                             /* space between cards */
+  width: 100%;
+  padding: 2rem;
+  background-color: whitesmoke;
+}
+
+/* Each card */
+.midsection > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: flex-start;
+}
+
+/* Images */
+.midsection img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Headings */
+.midsection > div > div:nth-of-type(1) {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Description text */
+.midsection > div > div:nth-of-type(2) {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.4;
+}
