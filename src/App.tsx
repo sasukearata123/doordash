@@ -40,6 +40,51 @@ function App() {
           </div> 
         </div>
       </div>
+      <div className='secondpart'>
+        <div>
+          <h2> 
+            Become a Dasher
+          </h2>
+          <div>
+            As a delivery driver, make money and work on your schedule. Sign up in minutes.
+
+          </div>
+          <div>
+            <button>
+              Start earning
+            </button>
+          </div>
+
+        </div>
+        <div>
+          <h2> 
+            Become a Merchant
+          </h2>
+          <div>
+            Attract new customers and grow sales, starting with 0% commissions for up to 30 days.
+
+          </div>
+          <button>
+              Sign up for DoorDash
+
+          </button>
+
+        </div>
+        <div>
+          <h2> 
+            Get the best DoorDash experience
+          </h2>
+          <div>
+            Experience the best your neighborhood has to offer, all in one app.
+
+          </div>
+          <button>
+              Get the app
+
+          </button>
+
+        </div>
+      </div>
     </>
   )
 }

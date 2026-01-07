@@ -58,3 +58,20 @@
   color: orangered;
   margin-top: 0.5rem;
 }
+
+.secondpart {
+  display: flex;             /* make children side by side */
+  flex-direction: row;       /* default, just for clarity */
+  justify-content: space-between; /* space between the divs */
+  align-items: center;       /* vertically center content */
+  gap: 1rem;                 /* optional space between divs */
+  width: 100%;               /* full width */
+}
+
+/* Optional: style each div */
+.secondpart > div {
+  flex: 1;                   /* each div takes equal width */
+  text-align: center;         /* center content inside each div */
+  padding: 1rem;              /* spacing inside */
+  border: 1px solid #ccc;     /* optional border */
+}
