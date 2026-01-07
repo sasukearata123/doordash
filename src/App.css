@@ -10,7 +10,7 @@
   background-position: center;
   background-repeat: no-repeat;
   width: 100vw;                  /* full screen width */
-  height: 100vh;                 /* full screen height */
+  height: 115vh;                 /* full screen height */
   display: flex;
   flex-direction: column;
 }
@@ -36,4 +36,25 @@
   padding: 0.5rem 1rem;
   border-radius: 30px;
   cursor: pointer;
+}
+.doordash {
+  font-size: 2rem;
+  font-weight: bold ;
+  color: orangered;
+  margin-top: 1rem;
+}
+.order{
+  margin-top: 2rem;
+
+}
+.deli {
+  font-size: 3rem;
+  font-weight: bold ;
+  color: orangered;
+  margin-top: 1rem;
+}
+.fees {
+  font-size: 1rem;
+  color: orangered;
+  margin-top: 0.5rem;
 }
