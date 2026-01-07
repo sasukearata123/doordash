@@ -249,7 +249,118 @@ function App() {
           </button>
         </div>
         </div>
-        
+        <div className="neighborhood">
+        <h2>Get more from your neighborhood</h2>
+
+        <div className="tabs">
+          <span className="active">Top Cities</span>
+          <span>Top Cuisines</span>
+          <span>Top Chains</span>
+        </div>
+
+        <div className="lists">
+          <ul>
+            <li>New York</li>
+            <li>Houston</li>
+            <li>San Francisco</li>
+            <li>Vancouver, BC</li>
+          </ul>
+
+          <ul>
+            <li>Los Angeles</li>
+            <li>Brooklyn</li>
+            <li>Seattle</li>
+            <li>Miami</li>
+          </ul>
+
+          <ul>
+            <li>Toronto</li>
+            <li>San Diego</li>
+            <li>Atlanta</li>
+            <li>San Antonio</li>
+          </ul>
+
+          <ul>
+            <li>Chicago</li>
+            <li>Las Vegas</li>
+            <li>Queens</li>
+          </ul>
+        </div>
+
+        <div className="see-more">
+          See more
+          <span className="arrow">⌄</span>
+        </div>
+      </div>
+      <footer className="footer">
+        <div className="footer-grid">
+          <ul>
+            <li className="title">Discover</li>
+            <li>Alcohol Australia</li>
+            <li>Alcohol Delivery Australia</li>
+            <li>Aldi Australia</li>
+            <li>Battle Of The Brands</li>
+            <li>Beauty Stores</li>
+            <li>Beauty Supply</li>
+            <li>Catering Near Me</li>
+            <li>Flower Delivery</li>
+            <li>Grocery Delivery Canada</li>
+            <li>Pet Store Near Me</li>
+            <li>Seasonal Holidays</li>
+          </ul>
+
+          <ul>
+            <li className="title">Popular</li>
+            <li>Halloween</li>
+            <li>Thanksgiving</li>
+            <li>Valentines Day</li>
+            <li>Mothers Day</li>
+            <li>New Years Eve</li>
+            <li>Winter Holidays</li>
+            <li>Game Day</li>
+            <li>Large Group Orders</li>
+          </ul>
+
+          <ul>
+            <li className="title">Company</li>
+            <li>About Us</li>
+            <li>Careers</li>
+            <li>Investors</li>
+            <li>Company Blog</li>
+            <li>Engineering Blog</li>
+            <li>Merchant Blog</li>
+            <li>Newsroom</li>
+            <li>Accessibility</li>
+          </ul>
+
+          <ul>
+            <li className="title">Business</li>
+            <li>Become a Dasher</li>
+            <li>DoorDash Merchant</li>
+            <li>Get Dashers for Deliveries</li>
+            <li>Get DoorDash for Business</li>
+            <li>Promotions</li>
+            <li>Gift Cards</li>
+          </ul>
+
+          <ul>
+            <li className="title">Help</li>
+            <li>Account Details</li>
+            <li>Order History</li>
+            <li>Help</li>
+            <li>Doing Business</li>
+            <li>Delivery Locations</li>
+          </ul>
+        </div>
+
+        <div className="footer-bottom">
+          <span>Terms of Service</span>
+          <span>Privacy</span>
+          <span>Do Not Sell or Share My Personal Information</span>
+          <span>© 2026 DoorDash</span>
+        </div>
+      </footer>
+
     </>
   )
 }
