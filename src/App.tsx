@@ -1,6 +1,5 @@
 
 import './App.css'
-import Logo from './Logo';
 
 function App() {
   
@@ -15,26 +14,22 @@ function App() {
         <div>
           
           <div className='order'>
-            <Logo />
             <div className='doordash'>DOORDASH</div>
           
             <h1 className='deli'>$0 DELIVERY FEE ON FIRST ORDER</h1>
             <span className='fees'>Other fees apply</span>
           </div>
           <div>
-            <input type="text" placeholder="Enter delivery address" />
-            <button>
-              <svg>
-                <path>
-                </path>
-              </svg>
+            <input className='hot' type="text" placeholder="Enter delivery address" />
+            <button className='signin'>
+              Find food
             </button>
           </div>
-          <div>
-            <button>
+          <div className='pair'>
+            <button className='signin pair1'>
               Login
             </button>
-            <button>
+            <button className='signin pair1'>
               Use current location
             </button>
           </div> 

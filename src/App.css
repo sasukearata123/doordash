@@ -438,3 +438,15 @@
     grid-template-columns: 1fr;
   }
 }
+.hot{
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  width: 300px;
+}
+.pair{
+  padding: 0.5rem 1rem;
+}
+.pair1{
+  padding: 0.5rem 1rem;
+  margin-left: 10px;
+}
