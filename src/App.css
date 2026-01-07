@@ -68,10 +68,145 @@
   width: 100%;               /* full width */
 }
 
-/* Optional: style each div */
-.secondpart > div {
-  flex: 1;                   /* each div takes equal width */
-  text-align: center;         /* center content inside each div */
-  padding: 1rem;              /* spacing inside */
-  border: 1px solid #ccc;     /* optional border */
+.thirdpart {
+  display: flex;               /* arrange two children side by side */
+  flex-direction: row;         /* horizontal row */
+  justify-content: space-between; /* push them apart */
+  align-items: center;         /* vertically center content */
+  gap: 2rem;                   /* space between text and image */
+  width: 100%;
+  padding: 2rem;               /* optional spacing around container */
+  flex-wrap: wrap;             /* allow wrapping on small screens */
 }
+
+/* Left text content */
+.thirdpart > div:first-child {
+  flex: 1;                     /* take remaining space */
+  min-width: 250px;            /* prevent shrinking too much on small screens */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;                   /* spacing between text blocks */
+}
+
+/* Headline / subtext / button spacing */
+.thirdpart h2 {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.thirdpart button {
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Right image */
+.thirdpart > div:last-child {
+  flex: 1;                     /* image takes remaining space */
+  min-width: 250px;
+  display: flex;
+  justify-content: center;      /* center image horizontally */
+}
+
+.thirdpart img {
+  max-width: 100%;             /* responsive image */
+  height: auto;
+  border-radius: 8px;          /* optional rounded corners */
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 768px) {
+  .thirdpart {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .thirdpart > div {
+    width: 100%;
+  }
+
+  .thirdpart img {
+    max-width: 80%;
+  }
+}
+.thirdpart {
+  display: flex;               /* arrange children horizontally */
+  flex-direction: row;         /* side by side */
+  justify-content: space-between;
+  align-items: center;         /* vertically center content */
+  gap: 2rem;                   /* space between image and text */
+  width: 100%;
+  padding: 2rem;
+  flex-wrap: wrap;             /* stack on smaller screens */
+}
+
+/* Left image container */
+.thirdpart > div:first-child {
+  flex: 1;                     /* take half space */
+  min-width: 250px;            /* prevents it from shrinking too much */
+  display: flex;
+  justify-content: center;      /* center image */
+}
+
+.thirdpart img {
+  max-width: 100%;             /* responsive */
+  height: auto;
+  border-radius: 8px;          /* optional */
+}
+
+/* Right text container */
+.thirdpart > div:last-child {
+  flex: 1;                     /* take remaining space */
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;                   /* spacing between text and button */
+}
+
+/* Headline */
+.thirdpart > div:last-child > div:first-child {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: orangered;
+}
+
+/* Description */
+.thirdpart > div:last-child > div:nth-child(2) {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Button */
+.thirdpart button {
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Responsive: stack vertically on small screens */
+@media (max-width: 768px) {
+  .thirdpart {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .thirdpart > div {
+    width: 100%;
+    text-align: center;
+  }
+
+  .thirdpart img {
+    max-width: 80%;
+  }
+}
+

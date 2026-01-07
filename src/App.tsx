@@ -85,6 +85,48 @@ function App() {
 
         </div>
       </div>
+      <div className='thirdpart'>
+        <div>
+          <div>
+            Everything you crave, delivered.
+          </div>
+          <div>
+            Your favorite local restaurants
+          </div>
+          <h2>
+            Get a slice of pizza or the whole pie delivered, or pick up house lo mein from the Chinese takeout spot you've been meaning to try.
+
+          </h2>
+          <button>
+            Find restaurants
+          </button>
+        </div>
+        <div>
+          <img src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/download_the_app_desktop.png" />
+
+        </div>
+
+      </div>
+      <div className='thirdpart'>
+        <div>
+          <img src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/dashpass_desktop.png" />
+          
+        </div>
+        <div>
+          <div>
+            DashPass is delivery for less
+          </div>
+          <div>
+            Members get a $0 delivery fee on DashPass orders, 5% back on pickup orders, and so much more. Plus, it's free for 30 days.
+          </div>
+          
+          <button>
+            Get DashPass
+          </button>
+        </div>
+        
+
+      </div>
     </>
   )
 }
