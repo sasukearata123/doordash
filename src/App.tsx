@@ -1,23 +1,22 @@
 
 import './App.css'
-
 function App() {
   
 
   return (
     <>
-      <div>
-        <div>
-          <span>Sign In</span>
-          <span>Sign Up</span>
+      <div className='background'>
+        <div className='sign'>
+          <span className='signin'>Sign In</span>
+          <span className='signup'>Sign Up</span>
         </div>
         <div>
-          <svg>
-            <path>
-
-            </path>
-          </svg>
-          <div>DOORDASH</div>
+          <div>
+            <svg viewBox="">
+              <path d="" />
+            </svg>
+            <div>DOORDASH</div>
+          </div>
           <div>
             <h1>$0 DELIVERY FEE ON FIRST ORDER</h1>
             <span>Other fees apply</span>
